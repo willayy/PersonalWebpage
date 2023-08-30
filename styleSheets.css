@@ -1,0 +1,21 @@
+.mainPageHeader {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+    background-image: url(mainPageHeaderBgImg.jpg);
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+.mainPageBody {
+    background: #565869;
+}
+
+.mainPageFooter {
+    background: #282828;
+}
+
+.backgroundPage {
+    background: #282828;
+}
