@@ -1,15 +1,77 @@
+
+/*Concerning the whole html doc*/
+
+body,footer,html {
+    margin: 0;
+    padding: 0;
+}
+
+/*Div classes*/
+
 .mainPageHeader {
+    /*Shape and position*/
+    position: relative;
+    z-index: 3;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    height: 300px;
+    
+    /*Shadow*/
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+
+    /*Content*/
     display: flex; 
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+
+    /*Background*/
     background-color: white;
-    border: 1px solid black;
     background-image: url(/Resources/mainPageHeaderBgImg.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: fill;
-    height: 200px;
-    width: 100%;
+    
 }
+
+.mainPageBody {
+    /*Shape and position*/
+    position: relative;
+    z-index: 2;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    margin: 0px;
+    height: 500px;
+
+    /*Shadow*/
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+
+    /*Background*/
+    background: #565869;
+}
+
+.mainPageFooter {
+    /*Shape and position*/
+    position: relative;
+    z-index: 1;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 0px;
+    height: 100px;
+    
+    /*Shadow*/
+    background: #282828;
+
+    /*Background*/
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*Paragraph classes*/
 
 .mainPageHeaderLogo {
     font-family: sans-serif;
@@ -17,23 +79,9 @@
     font-weight: bold;
 }
 
-.mainPageHeaderUnderText {
+.mainPageHeaderSmallerText {
     font-family: sans-serif;
     font-size: 25px;
     font-weight: bold;
     color: white;
-}
-
-.mainPageBody {
-    background: #565869;
-    height: 500px;
-    width: 100%;
-}
-
-.mainPageFooter {
-    background: #282828;
-}
-
-.backgroundPage {
-    background: #282828;
 }
