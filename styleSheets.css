@@ -2,8 +2,20 @@
 /*Concerning the whole html doc*/
 
 body,footer,html {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+}
+
+/*Link stuff*/
+
+a:link {
+    color: rgb(0, 102, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:hover {
+    color: rgba(0, 102, 255, 0.5);
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 /*Div classes*/
@@ -35,6 +47,19 @@ body,footer,html {
     
 }
 
+    .mainPageHeaderLogo {
+        font-family: sans-serif;
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .mainPageHeaderSmallerText {
+        font-family: sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+    }
+
 .mainPageBody {
     /*Shape and position*/
     position: relative;
@@ -44,7 +69,8 @@ body,footer,html {
     padding-top: 1px;
     padding-bottom: 0px;
     margin: 0px;
-    height: 500px;
+    height: 800px;
+    
 
     /*Shadow*/
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
@@ -52,6 +78,75 @@ body,footer,html {
     /*Background*/
     background: #565869;
 }
+
+    .mainPageBodyAbtMeBtn {
+        /*Shape and position*/
+        position: relative;
+        z-index: 2;
+        margin-top: 5%;
+        margin-left: 25%;
+        width: 50%;
+
+        /*Shadow*/
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+        
+        /*Border*/
+        border-color: #8a8686;
+        border-radius: 10px;
+
+        /*Background*/
+        background: #565869;
+
+        /*Font*/
+        font-family: consolas;
+        font-weight: bold;
+    }
+
+    .mainPageBodyCareerBtn {
+        /*Shape and position*/
+        position: relative;
+        z-index: 2;
+        margin-top: 5%;
+        margin-left: 25%;
+        width: 50%;
+
+        /*Shadow*/
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+        
+        /*Border*/
+        border-color: #8a8686;
+        border-radius: 10px;
+
+        /*Background*/
+        background: #565869;
+
+        /*Font*/
+        font-family: consolas;
+        font-weight: bold;
+    }
+
+    .mainPageBodyProjectsBtn {
+        /*Shape and position*/
+        position: relative;
+        z-index: 2;
+        margin-top: 5%;
+        margin-left: 25%;
+        width: 50%;
+
+        /*Shadow*/
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+        
+        /*Border*/
+        border-color: #8a8686;
+        border-radius: 10px;
+
+        /*Background*/
+        background: #565869;
+
+        /*Font*/
+        font-family: consolas;
+        font-weight: bold;
+    }
 
 .mainPageFooter {
     /*Shape and position*/
@@ -69,19 +164,9 @@ body,footer,html {
 
     /*Background*/
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
-}
 
-/*Paragraph classes*/
-
-.mainPageHeaderLogo {
+    /*Font*/
     font-family: sans-serif;
-    font-size: 55px;
-    font-weight: bold;
-}
-
-.mainPageHeaderSmallerText {
-    font-family: sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
+    font-size: 15px;
+    color: aliceblue;
 }
