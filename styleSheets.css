@@ -58,15 +58,6 @@ a:hover {
         color: white;
     }
 
-    .mainPageBlinkingUnderscore {
-        position: relative;
-        margin-top: 117px;
-        font-family: consolas;
-        font-size: 25px;
-        font-weight: bold;
-        color: white;
-    }
-
 .mainPageBody {
     /*Shape and position*/
     z-index: 2;
@@ -80,7 +71,7 @@ a:hover {
     background: #565869;
 }
 
-    .mainPageBodyAbtMeBtn {
+    .mainPageBodyBtn {
         /*Shape and position*/
         position: relative;
         z-index: 2;
@@ -106,69 +97,7 @@ a:hover {
         transition-duration: 0.6s;
     }
 
-    .mainPageBodyAbtMeBtn:hover {
-        background-color: #494a58;
-        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.35);
-    }
-
-    .mainPageBodyCareerBtn {
-        /*Shape and position*/
-        position: relative;
-        z-index: 2;
-        margin-top: 5%;
-        margin-left: 12.5%;
-        width: 75%;
-
-        /*Shadow*/
-        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
-        
-        /*Border*/
-        border-color: #8a8686;
-        border-radius: 10px;
-
-        /*Background*/
-        background: #565869;
-
-        /*Font*/
-        font-family: consolas;
-        font-weight: bold;
-
-        /*hover transition*/
-        transition-duration: 0.6s;
-    }
-
-    .mainPageBodyCareerBtn:hover {
-        background-color: #494a58;
-        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.35);
-    }
-
-    .mainPageBodyProjectsBtn {
-        /*Shape and position*/
-        position: relative;
-        z-index: 2;
-        margin-top: 5%;
-        margin-left: 12.5%;
-        width: 75%;
-
-        /*Shadow*/
-        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
-        
-        /*Border*/
-        border-color: #8a8686;
-        border-radius: 10px;
-
-        /*Background*/
-        background: #565869;
-
-        /*Font*/
-        font-family: consolas;
-        font-weight: bold;
-
-        /*hover transition*/
-        transition-duration: 0.6s;
-    }
-
-    .mainPageBodyProjectsBtn:hover {
+    .mainPageBodyBtn:hover {
         background-color: #494a58;
         box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.35);
     }
