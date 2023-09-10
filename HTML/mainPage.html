@@ -10,6 +10,8 @@
 
         <meta charset="UTF-8">
 
+        <script type="text/javascript" src="/webPageDynamics.js"></script>
+
     </head>
 
     <body>
@@ -17,23 +19,29 @@
         <div class = "mainPageHeader">
 
             <h1 id="mainPageHeaderLogo" class="mainPageHeaderLogo"></h1>
-
-            <p id="mainPageHeaderSmallerText" class="mainPageHeaderSmallerText"></p>
-
-            <script type="text/javascript" src="/webPageDynamics.js"></script>
-
+            
             <script> 
                 setTimeout(function () {
                     typeText("mainPageHeaderLogo", "William Norland", 50, 0);
                 }, 1000);
             </script>
 
+            <p id="mainPageHeaderSmallerText" class="mainPageHeaderSmallerText"></p>
+
             <script>
                 setTimeout(function () {
                     typeText("mainPageHeaderSmallerText", "Software engineer", 50, 0);
                 }, 2000);
             </script>
+
+            <p id="mainPageBlinkingUnderscore" class="mainPageBlinkingUnderscore"></p>
             
+            <script>
+                setTimeout(function () {
+                    blinkingUnderScoreAfter("mainPageBlinkingUnderscore", 500)
+                }, 3000)
+            </script>
+
         </div>
 
         <div class = "mainPageBody">
