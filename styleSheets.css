@@ -3,6 +3,7 @@
 
 body,footer,html {
     margin: 0px;
+    padding: 0px;
 }
 
 /*Link stuff*/
@@ -34,26 +35,37 @@ a:hover {
     
     /*Background*/
     background-color: white;
-    background-image: url(/Resources/mainPageHeaderBgImg.jpg);
+    background-image: url(Resources/mainPageHeaderBgImg.jpg);
     background-repeat: repeat;
     background-size: fill;
     
 }
 
     .mainPageHeaderLogo {
-        position: relative;
-        margin-left: 35%;
+        position: absolute;
+        margin-left: 30%;
         margin-top: 110px;
         font-family: consolas;
-        font-size: 55px;
+        font-size: 400%;
         font-weight: bold;
     }
 
     .mainPageHeaderSmallerText {
-        position: relative;
-        margin-top: 117px;
+        position: absolute;
+        margin-left: 39%;
+        margin-top: 200px;
         font-family: consolas;
-        font-size: 25px;
+        font-size: 200%;
+        font-weight: bold;
+        color: white;
+    }
+
+    .mainPageHeaderBlinkingUnderscore {
+        position: absolute;
+        margin-left: 62.5%;
+        margin-top: 200px;
+        font-family: consolas;
+        font-size: 200%;
         font-weight: bold;
         color: white;
     }
