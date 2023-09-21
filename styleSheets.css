@@ -19,10 +19,11 @@ a:hover {
     text-decoration: underline;
 }
 
-/*Div classes*/
+/*Header of the body*/
 
 .mainPageHeader {
     /*Shape and position*/
+    position: relative;
     z-index: 3;
     margin: 0px;
     height: 300px;
@@ -32,6 +33,8 @@ a:hover {
 
     /*Display*/
     display: flex; 
+    justify-content: center;
+    align-items: center;
     
     /*Background*/
     background-color: white;
@@ -42,18 +45,21 @@ a:hover {
 }
 
     .mainPageHeaderLogo {
+        /*Shape and position*/
         position: absolute;
-        margin-left: 30%;
-        margin-top: 110px;
+
+        /*Font and text*/
         font-family: consolas;
         font-size: 400%;
         font-weight: bold;
     }
 
     .mainPageHeaderSmallerText {
+        /*Shape and position*/
         position: absolute;
-        margin-left: 39%;
-        margin-top: 200px;
+        transform: translateY(45px);
+
+        /*Font and text*/
         font-family: consolas;
         font-size: 200%;
         font-weight: bold;
@@ -61,32 +67,63 @@ a:hover {
     }
 
     .mainPageHeaderBlinkingUnderscore {
+        /*Shape and position*/
         position: absolute;
-        margin-left: 62.5%;
-        margin-top: 200px;
+        transform: translate(155px,45px);
+
+        /*Font and text*/
         font-family: consolas;
         font-size: 200%;
         font-weight: bold;
         color: white;
     }
 
+/*Body of the body ;) */
+
 .mainPageBody {
     /*Shape and position*/
+    position: relative;
     z-index: 2;
-    margin: 0px;
-    height: 800px;
-    
+    margin: 0%;
+    padding-top: 5%;
+    height: 800px; 
+
     /*Shadow*/
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 
     /*Background*/
     background: #565869;
-}
+}   
+
+    .mainPageBodyGetToKnowMe {
+        /*Shape and position*/
+        position: relative;
+
+        /*Font and text*/
+        font-family: consolas;
+        font-size: 200%;
+        font-weight: bold;
+        color: #282828;
+        text-align: center;
+    }
+
+    .mainPageBodyBar {
+        /*Shape and position*/
+        position: relative;
+
+        padding-top: 0.5%;
+        margin-left: 2.5%;
+        width: 95%;
+
+        /*Background*/
+        background: #282828;
+
+    }
 
     .mainPageBodyBtn {
         /*Shape and position*/
         position: relative;
-        z-index: 2;
+
         margin-top: 5%;
         margin-left: 12.5%;
         width: 75%;
@@ -110,18 +147,20 @@ a:hover {
     }
 
     .mainPageBodyBtn:hover {
+        /*Background*/
         background-color: #494a58;
+
+        /*Shadow*/
         box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.35);
     }
+
+/*Footer*/
 
 .mainPageFooter {
     /*Shape and position*/
     position: relative;
     z-index: 1;
-    padding-left: 0px;
-    padding-right: 0px;
     padding-top: 1px;
-    padding-bottom: 1px;
     margin: 0px;
     height: 100px;
     
