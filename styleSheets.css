@@ -86,13 +86,15 @@ a:hover {
     z-index: 2;
     margin: 0%;
     padding-top: 5%;
-    height: 800px; 
+    height: calc(800px);
+    transition: all .3s ease;
 
     /*Shadow*/
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 
     /*Background*/
     background: #565869;
+
 }   
 
     .mainPageBodyGetToKnowMe {
@@ -144,6 +146,33 @@ a:hover {
 
         /*hover transition*/
         transition-duration: 0.6s;
+    }
+
+    .mainPageBodyButtonBox {
+        /*Shape and position*/
+        position: relative;
+
+        margin-top: 0%;
+        margin-left: 12.5%;
+        width: calc(75% - 6px);
+        height: 0;
+        overflow: hidden;
+        transition: all .3s ease;
+
+        /*Shadow*/
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+        
+        /*Border*/
+        border-style: none;
+        border-radius: 0 0 10px 10px;
+        border-color: #8a8686;
+
+        /*Background*/
+        background-color: #ffffff;
+
+        /*Font*/
+        font-family: consolas;
+        font-weight: bold;
     }
 
     .mainPageBodyBtn:hover {
