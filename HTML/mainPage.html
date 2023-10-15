@@ -21,28 +21,10 @@
         <div class = "mainPageHeader">
 
             <h1 id="mainPageHeaderLogo" class="mainPageHeaderLogo"></h1>
-            
-            <script> 
-                setTimeout(function () {
-                    typeText("mainPageHeaderLogo", "William Norland", 50, 0);
-                }, 1000);
-            </script>
 
             <p id="mainPageHeaderSmallerText" class="mainPageHeaderSmallerText"></p>
 
-            <script>
-                setTimeout(function () {
-                    typeText("mainPageHeaderSmallerText", "Software engineer", 50, 0);
-                }, 2000);
-            </script>
-
             <p id="mainPageHeaderBlinkingUnderscore" class="mainPageHeaderBlinkingUnderscore"></p>
-            
-            <script>
-                setTimeout(function () {
-                    blinkingUnderScoreAfter("mainPageHeaderBlinkingUnderscore", 500)
-                }, 3000)
-            </script>
 
         </div>
 
@@ -78,7 +60,18 @@
 
             <p>&copy; 2023 williamnorland.com All rights reserved.</p>
 
-            <script> initEventListners() </script>
+            <script> 
+                initEventListners()
+                setTimeout(function () {
+                    typeText("mainPageHeaderLogo", "William Norland", 50, 0);
+                }, 1000);
+                setTimeout(function () {
+                    typeText("mainPageHeaderSmallerText", "Software engineer", 50, 0);
+                }, 2000);
+                setTimeout(function () {
+                    blinkingUnderScoreAfter("mainPageHeaderBlinkingUnderscore", 500)
+                }, 3000)
+            </script>
 
         </div>
         

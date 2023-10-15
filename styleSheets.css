@@ -86,8 +86,8 @@ a:hover {
     z-index: 2;
     margin: 0%;
     padding-top: 5%;
-    height: calc(800px);
-    transition: all .3s ease;
+    height: 800px;
+    transition: all 0.4s ease;
 
     /*Shadow*/
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);

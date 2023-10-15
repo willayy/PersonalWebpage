@@ -12,14 +12,17 @@ function initEventListners() {
     const projectsButton = document.getElementById("projectsBtn");
 
     whoamiButton.addEventListener("click", () => {
+
+        let mainPageBodyDivHeight = 800
+        
         if (whoamiDiv.style.height) {
-            mainPageBodyDiv.style.height = "800px"
-            whoamiButton.style.borderRadius = "10px";
-            whoamiDiv.style.borderStyle = "none";
-            whoamiDiv.style.height = null; // Toggle back to 0 height
+            whoamiButton.style.borderRadius = null; // Reset to original css class
+            whoamiDiv.style.borderStyle = null;
+            whoamiDiv.style.height = null; 
+            mainPageBodyDiv.style.height = null;
         } else { 
-            whoamiDiv.style.height = "100px";
-            mainPageBodyDiv.style.height = "900px";
+            whoamiDiv.style.height = "100px"; // Override css class to create dynamic elements
+            mainPageBodyDiv.style.height = (mainPageBodyDivHeight + 100) + "px"
             whoamiButton.style.borderRadius = "10px 10px 0 0";
             whoamiDiv.style.borderStyle = "outset";
         }
@@ -29,7 +32,7 @@ function initEventListners() {
         if (careermeritsDiv.style.height) {
             careermeritsButton.style.borderRadius = "10px"
             careermeritsDiv.style.borderStyle = "none"
-            careermeritsDiv.style.height = null; // Toggle back to 0 height
+            careermeritsDiv.style.height = null;
         } else { 
             careermeritsDiv.style.height = 15+"%";
             careermeritsButton.style.borderRadius = "10px 10px 0 0"
@@ -41,7 +44,7 @@ function initEventListners() {
         if (projectsDiv.style.height) {
             projectsButton.style.borderRadius = "10px"
             projectsDiv.style.borderStyle = "none"
-            projectsDiv.style.height = null; // Toggle back to 0 height
+            projectsDiv.style.height = null;
         } else { 
             projectsDiv.style.height = 15+"%";
             projectsButton.style.borderRadius = "10px 10px 0 0"
