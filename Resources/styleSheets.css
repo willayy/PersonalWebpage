@@ -181,6 +181,33 @@ a:hover {
         font-weight: bold;
     }
 
+    .mainPageBodyButtonBoxParagraph {
+
+        /* Position */
+        margin-left: 12.5%;
+
+        /*Font*/
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+    }
+
+    .mainPageBodyButtonBoxWhoamiImg {
+
+        /* Size */
+        width: 300px;
+        height: 40%;
+
+        /* Position */
+        margin-top: 5%;
+        margin-right: calc(50% + 300px);
+        margin-left: calc(50% - 300px);
+
+        /* Image stuff */
+        background-image: url(profilePic.png);
+        background-repeat: no-repeat;
+        background-size: fill;
+    }
+
     .mainPageBodyBtn:hover {
         /*Background*/
         background-color: #494a58;

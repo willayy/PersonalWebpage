@@ -1,7 +1,7 @@
 
     let mainPageBodyDivHeight = 800
 
-    const whoamiDivHeight = 300
+    const whoamiDivHeight = 500
     const careermeritsDivHeight = 300
     const projectsDivHeight = 300
 
