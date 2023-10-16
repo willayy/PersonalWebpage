@@ -1,3 +1,9 @@
+/* Fonts */
+@font-face {
+    src: url(Resources\Roboto_Mono\static\RobotoMono-Medium.ttf);
+    font-family: 'Roboto Mono', monospace;
+}
+
 
 /*Concerning the whole html doc*/
 
@@ -13,6 +19,7 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
 }
+
 a:hover {
     color: rgba(0, 102, 255, 0.5);
     background-color: transparent;
@@ -42,6 +49,8 @@ a:hover {
     background-repeat: repeat;
     background-size: fill;
     
+    /*Font*/
+    font-family: 'Roboto Mono', monospace;
 }
 
     .mainPageHeaderLogo {
@@ -49,7 +58,6 @@ a:hover {
         position: absolute;
 
         /*Font and text*/
-        font-family: consolas;
         font-size: 400%;
         font-weight: bold;
     }
@@ -60,7 +68,6 @@ a:hover {
         transform: translateY(45px);
 
         /*Font and text*/
-        font-family: consolas;
         font-size: 200%;
         font-weight: bold;
         color: white;
@@ -69,10 +76,9 @@ a:hover {
     .mainPageHeaderBlinkingUnderscore {
         /*Shape and position*/
         position: absolute;
-        transform: translate(155px,45px);
+        transform: translate(170px,45px);
 
         /*Font and text*/
-        font-family: consolas;
         font-size: 200%;
         font-weight: bold;
         color: white;
@@ -102,7 +108,7 @@ a:hover {
         position: relative;
 
         /*Font and text*/
-        font-family: consolas;
+        font-family: 'Roboto Mono', monospace;
         font-size: 200%;
         font-weight: bold;
         color: #282828;
@@ -141,7 +147,7 @@ a:hover {
         background-color: #565869;
 
         /*Font*/
-        font-family: consolas;
+        font-family: 'Roboto Mono', monospace;
         font-weight: bold;
 
         /*hover transition*/
@@ -168,10 +174,10 @@ a:hover {
         border-color: #8a8686;
 
         /*Background*/
-        background-color: #ffffff;
+        background-color: #3f414d;
 
         /*Font*/
-        font-family: consolas;
+        font-family: 'Roboto Mono', monospace;
         font-weight: bold;
     }
 
