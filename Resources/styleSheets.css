@@ -60,6 +60,7 @@ a:hover {
         /*Font and text*/
         font-size: 400%;
         font-weight: bold;
+        color: white;
     }
 
     .mainPageHeaderSmallerText {
