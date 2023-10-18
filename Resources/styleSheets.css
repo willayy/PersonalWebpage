@@ -4,6 +4,22 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar { /* width */
+    width: 10px;
+}
+
+::-webkit-scrollbar-track { /* Track */
+    background: #565869; 
+}
+
+::-webkit-scrollbar-thumb { /* Handle */
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover { /* Handle on hover */
+    background: #555; 
+}
 
 /*Concerning the whole html doc*/
 
@@ -112,7 +128,7 @@ a:hover {
         font-family: 'Roboto Mono', monospace;
         font-size: 200%;
         font-weight: bold;
-        color: #282828;
+        color: #252525;
         text-align: center;
     }
 
@@ -126,6 +142,11 @@ a:hover {
 
         /*Background*/
         background: #282828;
+
+        /* Border */
+        border-style: outset;
+        border-radius: 5px;
+        border-color: #8a8686;
 
     }
 
@@ -156,15 +177,21 @@ a:hover {
     }
 
     .mainPageBodyButtonBox {
-        /*Shape and position*/
-        position: relative;
 
+        /*Shape and position*/
         margin-top: 0%;
         margin-left: 12.5%;
         width: calc(75% - 6px);
         height: 0;
-        overflow: hidden;
+        
+        /* Transitions */
         transition: all .3s ease;
+
+        /* Content */
+        display: flex;
+        overflow: hidden;
+        overflow-y: scroll;
+        justify-content: center; /* Center horizontally */
 
         /*Shadow*/
         box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
@@ -180,33 +207,51 @@ a:hover {
         /*Font*/
         font-family: 'Roboto Mono', monospace;
         font-weight: bold;
+        color: #252525;
     }
 
     .mainPageBodyButtonBoxParagraph {
 
         /* Position */
-        margin-left: 12.5%;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 2.5%;
 
         /*Font*/
         font-family: 'Roboto Mono', monospace;
         font-weight: bold;
     }
 
+    .mainPageBodyButtonBoxHeader { 
+        /*Shape and position*/
+
+        /*Font and text*/
+        font-family: 'Roboto Mono', monospace;
+        font-size: 200%;
+        font-weight: bold;
+        color: #252525;
+        text-align: center;
+    }
+
     .mainPageBodyButtonBoxWhoamiImg {
 
         /* Size */
         width: 300px;
-        height: 40%;
+        height: 200px;
 
         /* Position */
-        margin-top: 5%;
-        margin-right: calc(50% + 300px);
-        margin-left: calc(50% - 300px);
+        margin-top: 2.5%;
+        margin-left: 50px;
 
         /* Image stuff */
         background-image: url(profilePic.png);
         background-repeat: no-repeat;
-        background-size: fill;
+        background-size: cover;
+
+        /* Border */
+        border-style: outset;
+        border-radius: 10px;
+        border-color: #8a8686;
     }
 
     .mainPageBodyBtn:hover {
@@ -234,7 +279,7 @@ a:hover {
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 
     /*Font*/
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     color: aliceblue;
 }

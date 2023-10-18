@@ -26,3 +26,15 @@ function blinkingUnderScoreAfter(id, delay) {
         setTimeout(blinkingUnderScoreAfter, delay, id, delay)
     }
 }
+
+function initLogoAnimation() {
+    setTimeout(function () {
+        typeText("mainPageHeaderLogo", "William Norland", 50, 0);
+    }, 1000);
+    setTimeout(function () {
+        typeText("mainPageHeaderSmallerText", "Software engineer", 50, 0);
+    }, 2000);
+    setTimeout(function () {
+        blinkingUnderScoreAfter("mainPageHeaderBlinkingUnderscore", 500)
+    }, 3000)
+}

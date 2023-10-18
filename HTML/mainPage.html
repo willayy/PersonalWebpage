@@ -45,13 +45,14 @@
                     me tell you a bit about myself. 
                     <br>
                     <br>
-                    Im born 2001 in the city of Gothenburg, Sweden.
+                    My name is William Sven Nikola Norland, im born 2001 in the city of Gothenburg, Sweden.
                     <br>
                     <br>
-                    What makes me happy? Programming, Big datasets, fast algorithms, running, rockclimbing, BJJ and cooking.
+                    What interests me? Datascience, Application programming, AI, Algorithms, Databases and datastructures or <br> 
+                    generally anything with programming or computer science.
                     <br>
                     <br>
-                    What motivates me in life? Curiosity, Problemsolving, self fulfillment through learning and the pursuit of happiness. 
+                    What motivates me in life? Curiosity, Problemsolving and self fulfillment through learning!
                     <br>
                     <br>
                     What are some of my key personality traits? I pride myself in being very open-minded, self aware, honest and caring about
@@ -62,7 +63,9 @@
 
             <button id = "careermeritsBtn" class="mainPageBodyBtn"><p>My career & Merits</p></button>
 
-            <div id = "careermerits" class = "mainPageBodyButtonBox"></div>
+            <div id = "careermerits" class = "mainPageBodyButtonBox">
+                <h1 class="mainPageBodyButtonBoxHeader"> Education </h1>
+            </div>
 
             <button id = "projectsBtn" class="mainPageBodyBtn"><p>My projects</p></button>
 
@@ -84,15 +87,7 @@
 
             <script> 
                 initEventListners()
-                setTimeout(function () {
-                    typeText("mainPageHeaderLogo", "William Norland", 50, 0);
-                }, 1000);
-                setTimeout(function () {
-                    typeText("mainPageHeaderSmallerText", "Software engineer", 50, 0);
-                }, 2000);
-                setTimeout(function () {
-                    blinkingUnderScoreAfter("mainPageHeaderBlinkingUnderscore", 500)
-                }, 3000)
+                initLogoAnimation()
             </script>
 
         </div>
