@@ -1,10 +1,12 @@
 /* Fonts */
+
 @font-face {
     src: url(Resources\Roboto_Mono\static\RobotoMono-Medium.ttf);
     font-family: 'Roboto Mono', monospace;
 }
 
 /* Scrollbar */
+
 ::-webkit-scrollbar { /* width */
     width: 10px;
 }
@@ -23,263 +25,198 @@
 
 /*Concerning the whole html doc*/
 
-body,footer,html {
+body,footer,html,button,div {
+    /* Size */
     margin: 0px;
     padding: 0px;
+
+    /* Position */
+    position: relative;
+
+    /* Cosmetics */
+    color: #252525;
+    background: #565869;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    border-color: #8a8686;
+    
+    /* Images and content */
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    
+    /* Transitions */
+    transition: all 0.3s ease;
+}
+
+button {
+    /* Cosmetics */
+    border-style: outset;
+}
+
+h1 {
+    /* Position */
+    position: absolute;
+
+    /* Cosmetics */
+    color: white;
+}
+
+h2 {
+    /* Size */
+    font-size: 200%;
+
+    /* Cosmetics */
+    color: #252525;
+
+    /* Images and content */
+    text-align: center;
 }
 
 /*Link stuff*/
 
 a:link {
+    /* Cosmetics */
     color: rgb(0, 102, 255);
-    background-color: transparent;
     text-decoration: underline;
 }
 
 a:hover {
+    /* Cosmetics */
     color: rgba(0, 102, 255, 0.5);
-    background-color: transparent;
-    text-decoration: underline;
 }
 
-/*Header of the body*/
+/*Top box in the body */
 
-.mainPageHeader {
-    /*Shape and position*/
-    position: relative;
+.bodyTopBox {
+    /* Position */
     z-index: 3;
+
+    /* Size */
     margin: 0px;
     height: 300px;
-    
-    /*Shadow*/
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 
-    /*Display*/
+    /* Images and content */
     display: flex; 
-    justify-content: center;
     align-items: center;
-    
-    /*Background*/
-    background-color: white;
     background-image: url(mainPageHeaderBgImg.jpg);
-    background-repeat: repeat;
-    background-size: fill;
-    
-    /*Font*/
-    font-family: 'Roboto Mono', monospace;
 }
 
-    .mainPageHeaderLogo {
-        /*Shape and position*/
-        position: absolute;
+.nameHeader {
+    /* Cosmetics */
+    font-size: 400%;
+}
 
-        /*Font and text*/
-        font-size: 400%;
-        font-weight: bold;
-        color: white;
-    }
+.nameHeaderUnderText {
+    /* Position */
+    transform: translateY(45px);
 
-    .mainPageHeaderSmallerText {
-        /*Shape and position*/
-        position: absolute;
-        transform: translateY(45px);
+    /* Cosmetics */
+    font-size: 200%;
+}
 
-        /*Font and text*/
-        font-size: 200%;
-        font-weight: bold;
-        color: white;
-    }
+.nameHeaderBlinkingUnderscore {
+    /* Position */
+    transform: translate(170px,45px);
 
-    .mainPageHeaderBlinkingUnderscore {
-        /*Shape and position*/
-        position: absolute;
-        transform: translate(170px,45px);
-
-        /*Font and text*/
-        font-size: 200%;
-        font-weight: bold;
-        color: white;
-    }
+    /* Cosmetics */
+    font-size: 200%;
+}
 
 /*Body of the body ;) */
 
-.mainPageBody {
-    /*Shape and position*/
-    position: relative;
+.bodyMiddleBox {
+    /* Position */
     z-index: 2;
-    margin: 0%;
+
+    /* Size */
     padding-top: 5%;
     height: 800px;
-    transition: all 0.4s ease;
-
-    /*Shadow*/
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
-
-    /*Background*/
-    background: #565869;
-
 }   
 
-    .mainPageBodyGetToKnowMe {
-        /*Shape and position*/
-        position: relative;
+.barSeparator {
+    /* Size */
+    padding-top: 0.5%;
+    margin-left: 2.5%;
+    width: 95%;
 
-        /*Font and text*/
-        font-family: 'Roboto Mono', monospace;
-        font-size: 200%;
-        font-weight: bold;
-        color: #252525;
-        text-align: center;
-    }
+    /* Cosmetics */
+    background: #282828;
+    border-style: outset;
+    border-radius: 5px;
+}
 
-    .mainPageBodyBar {
-        /*Shape and position*/
-        position: relative;
+.expandingButton {
+    /* Size */
+    margin-top: 5%;
+    margin-left: 12.5%;
+    width: 75%;
+    
+    /* Cosmetics */
+    border-radius: 10px;
+}
 
-        padding-top: 0.5%;
-        margin-left: 2.5%;
-        width: 95%;
+.expandingButton:hover {
+    /* Cosmetics */
+    background-color: #494a58;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.35);
+}
 
-        /*Background*/
-        background: #282828;
+.expandingButtonBox {
+    /* Size */
+    margin-top: 0%;
+    margin-left: 12.5%;
+    width: calc(75% - 6px);
+    height: 0;
 
-        /* Border */
-        border-style: outset;
-        border-radius: 5px;
-        border-color: #8a8686;
+    /* Content */
+    display: flex;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+    /* Cosmetics */
+    border-style: none;
+    border-radius: 0 0 10px 10px;
+    background-color: #3f414d;
+}
 
-    }
+.expandingButtonBoxParagraph {
+    /* Position */
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 2.5%;
+}
 
-    .mainPageBodyBtn {
-        /*Shape and position*/
-        position: relative;
+.profileImageBox {
 
-        margin-top: 5%;
-        margin-left: 12.5%;
-        width: 75%;
+    /* Size */
+    width: 300px;
+    height: 200px;
 
-        /*Shadow*/
-        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
-        
-        /*Border*/
-        border-color: #8a8686;
-        border-radius: 10px;
+    /* Position */
+    margin-top: 2.5%;
+    margin-left: 50px;
 
-        /*Background*/
-        background-color: #565869;
+    /* Image stuff */
+    background-image: url(profilePic.png);
 
-        /*Font*/
-        font-family: 'Roboto Mono', monospace;
-        font-weight: bold;
-
-        /*hover transition*/
-        transition-duration: 0.6s;
-    }
-
-    .mainPageBodyButtonBox {
-
-        /*Shape and position*/
-        margin-top: 0%;
-        margin-left: 12.5%;
-        width: calc(75% - 6px);
-        height: 0;
-        
-        /* Transitions */
-        transition: all .3s ease;
-
-        /* Content */
-        display: flex;
-        overflow: hidden;
-        overflow-y: scroll;
-        justify-content: center; /* Center horizontally */
-
-        /*Shadow*/
-        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
-        
-        /*Border*/
-        border-style: none;
-        border-radius: 0 0 10px 10px;
-        border-color: #8a8686;
-
-        /*Background*/
-        background-color: #3f414d;
-
-        /*Font*/
-        font-family: 'Roboto Mono', monospace;
-        font-weight: bold;
-        color: #252525;
-    }
-
-    .mainPageBodyButtonBoxParagraph {
-
-        /* Position */
-        margin-left: 25px;
-        margin-right: 25px;
-        margin-top: 2.5%;
-
-        /*Font*/
-        font-family: 'Roboto Mono', monospace;
-        font-weight: bold;
-    }
-
-    .mainPageBodyButtonBoxHeader { 
-        /*Shape and position*/
-
-        /*Font and text*/
-        font-family: 'Roboto Mono', monospace;
-        font-size: 200%;
-        font-weight: bold;
-        color: #252525;
-        text-align: center;
-    }
-
-    .mainPageBodyButtonBoxWhoamiImg {
-
-        /* Size */
-        width: 300px;
-        height: 200px;
-
-        /* Position */
-        margin-top: 2.5%;
-        margin-left: 50px;
-
-        /* Image stuff */
-        background-image: url(profilePic.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-
-        /* Border */
-        border-style: outset;
-        border-radius: 10px;
-        border-color: #8a8686;
-    }
-
-    .mainPageBodyBtn:hover {
-        /*Background*/
-        background-color: #494a58;
-
-        /*Shadow*/
-        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.35);
-    }
+    /* Border */
+    border-style: outset;
+    border-radius: 10px;
+}
 
 /*Footer*/
 
-.mainPageFooter {
+.footerBox {
     /*Shape and position*/
-    position: relative;
     z-index: 1;
     padding-top: 1px;
     margin: 0px;
     height: 100px;
     
-    /*Shadow*/
+    /* Cosmetics */
     background: #282828;
-
-    /*Background*/
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
-
-    /*Font*/
-    font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     color: aliceblue;
 }

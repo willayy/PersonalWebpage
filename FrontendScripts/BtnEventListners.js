@@ -7,7 +7,7 @@
 
     function initEventListners() {
 
-        const mainPageBodyDiv = document.getElementById("mainPageBody")
+        const mainPageBodyDiv = document.getElementById("bodyMiddleBox")
         
         const whoamiButton = document.getElementById("whoamiBtn");
         whoamiButton.addEventListener("click", () => {
