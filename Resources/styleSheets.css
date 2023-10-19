@@ -124,7 +124,7 @@ a:hover {
     font-size: 200%;
 }
 
-/*Body of the body ;) */
+/*Middle box in the body */
 
 .bodyMiddleBox {
     /* Position */
@@ -186,6 +186,7 @@ a:hover {
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 .profileImageBox {
