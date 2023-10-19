@@ -100,7 +100,8 @@ a:hover {
     /* Images and content */
     display: flex; 
     align-items: center;
-    background-image: url(mainPageHeaderBgImg.jpg);
+    background-color: rgb(113, 162, 146);
+    
 }
 
 .nameHeader {
@@ -131,15 +132,20 @@ a:hover {
     z-index: 2;
 
     /* Size */
-    padding-top: 5%;
+    padding-top: 2.5%;
     height: 800px;
+    
+    /* Content */
+    text-align: center;
 }   
 
 .barSeparator {
+
+    margin: auto;
+
     /* Size */
-    padding-top: 0.5%;
-    margin-left: 2.5%;
-    width: 95%;
+    width: 300px;
+    height: 10px;
 
     /* Cosmetics */
     background: #282828;
@@ -150,7 +156,6 @@ a:hover {
 .expandingButton {
     /* Size */
     margin-top: 5%;
-    margin-left: 12.5%;
     width: 75%;
     
     /* Cosmetics */
@@ -166,9 +171,10 @@ a:hover {
 .expandingButtonBox {
     /* Size */
     margin-top: 0%;
-    margin-left: 12.5%;
-    width: calc(75% - 6px);
+    margin: auto;
+    width: calc(75% - 4px);
     height: 0;
+    padding-bottom: 0;
 
     /* Content */
     display: flex;
@@ -186,7 +192,7 @@ a:hover {
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    
 }
 
 .profileImageBox {

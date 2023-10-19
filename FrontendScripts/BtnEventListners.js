@@ -2,8 +2,11 @@
     let mainPageBodyDivHeight = 800
 
     const whoamiDivHeight = 300
+    const whoamiDivPaddingB = 50
     const careermeritsDivHeight = 300
+    const careermeritsPaddingB = 50
     const projectsDivHeight = 300
+    const projectsPaddingB = 50
 
     function initEventListners() {
 
@@ -18,6 +21,7 @@
                 whoamiButton.style.borderRadius = null; // Reset to original css class
                 whoamiDiv.style.borderStyle = null;
                 whoamiDiv.style.height = null;
+                whoamiDiv.style.paddingBottom = null;
 
                 mainPageBodyDivHeight -= whoamiDivHeight;
                 mainPageBodyDiv.style.height = (mainPageBodyDivHeight) + "px"
@@ -25,6 +29,7 @@
                 whoamiDiv.style.height = whoamiDivHeight+"px"; // Override css class to create dynamic elements
                 whoamiButton.style.borderRadius = "10px 10px 0 0";
                 whoamiDiv.style.borderStyle = "outset";
+                whoamiDiv.style.paddingBottom = whoamiDivPaddingB+"px"
 
                 mainPageBodyDivHeight += whoamiDivHeight;
                 mainPageBodyDiv.style.height = (mainPageBodyDivHeight) + "px"
@@ -41,6 +46,7 @@
                 careermeritsButton.style.borderRadius = null;
                 careermeritsDiv.style.borderStyle = null;
                 careermeritsDiv.style.height = null;
+                careermeritsDiv.style.paddingBottom = null;
 
                 mainPageBodyDivHeight -= careermeritsDivHeight;
                 mainPageBodyDiv.style.height = (mainPageBodyDivHeight) + "px"
@@ -48,6 +54,7 @@
                 careermeritsDiv.style.height = careermeritsDivHeight+"px";
                 careermeritsButton.style.borderRadius = "10px 10px 0 0"
                 careermeritsDiv.style.borderStyle = "outset"
+                careermeritsDiv.style.paddingBottom = careermeritsPaddingB+"px"
 
                 mainPageBodyDivHeight += careermeritsDivHeight;
                 mainPageBodyDiv.style.height = (mainPageBodyDivHeight) + "px"
@@ -63,6 +70,7 @@
                 projectsButton.style.borderRadius = null;
                 projectsDiv.style.borderStyle = null;
                 projectsDiv.style.height = null;
+                projectsDiv.style.paddingBottom = null;
 
                 mainPageBodyDivHeight -= projectsDivHeight;
                 mainPageBodyDiv.style.height = (mainPageBodyDivHeight) + "px"
@@ -70,6 +78,7 @@
                 projectsDiv.style.height = projectsDivHeight+"px";
                 projectsButton.style.borderRadius = "10px 10px 0 0"
                 projectsDiv.style.borderStyle = "outset"
+                projectsDiv.style.paddingBottom = projectsPaddingB+"px"
 
                 mainPageBodyDivHeight += projectsDivHeight;
                 mainPageBodyDiv.style.height = (mainPageBodyDivHeight) + "px"
