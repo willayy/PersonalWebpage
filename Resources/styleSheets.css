@@ -74,6 +74,28 @@ h2 {
     text-align: center;
 }
 
+h3 {
+
+    font-size: 120%;
+
+    /* Cosmetics */
+    color: #bdbdbd;
+
+    /* Images and content */
+    text-align: center;
+}
+
+
+.breadTextCareerMeritsBox {
+    /* Cosmetics */
+    color: #bdbdbdb4;
+
+    /* Images and content */
+    text-align: center;
+
+    font-weight: lighter;
+}
+
 /*Link stuff*/
 
 a:link {
@@ -170,7 +192,6 @@ a:hover {
 
 .expandingButtonBox {
     /* Size */
-    margin-top: 0%;
     margin: auto;
     width: calc(75% - 4px);
     height: 0;
@@ -185,6 +206,40 @@ a:hover {
     border-style: none;
     border-radius: 0 0 10px 10px;
     background-color: #3f414d;
+    color:#1b1b1b;
+}
+
+.expandingButtonBoxBlock {
+    /* Size */
+    margin: auto;
+    width: calc(75% - 4px);
+    height: 0;
+    padding-bottom: 0;
+
+    /* Content */
+    display: block;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+    /* Cosmetics */
+    border-style: none;
+    border-radius: 0 0 10px 10px;
+    background-color: #3f414d;
+    color:#1b1b1b;
+}
+
+.internalBoxBlock {
+
+    /* Content */
+    margin: auto;
+
+    /* Content */
+    display: block;
+
+    /* Cosmetics */
+    background-color: #3f414d;
+    box-shadow: none;
+    
 }
 
 .expandingButtonBoxParagraph {
@@ -192,7 +247,6 @@ a:hover {
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 2.5%;
-    
 }
 
 .profileImageBox {
@@ -211,6 +265,42 @@ a:hover {
     /* Border */
     border-style: outset;
     border-radius: 10px;
+}
+
+.universityImageBox {
+
+    /* Size */
+    width: 100px;
+    height: 120px;
+
+    /* Position */
+    
+    margin: auto;
+
+    /* Image stuff */
+    background-image: url(EN_Avancez_CH_black.png);
+
+    /* Cosmetics */
+    background-color: #3f414d;
+    box-shadow: none;
+}
+
+.highschoolImageBox {
+
+    /* Size */
+    width: 256px;
+    height: 120px;
+
+    /* Position */
+    
+    margin: auto;
+
+    /* Image stuff */
+    background-image: url(polhem-logo-st-bla-1024x480.png);
+
+    /* Cosmetics */
+    background-color: #3f414d;
+    box-shadow: none;
 }
 
 /*Footer*/
