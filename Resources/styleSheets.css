@@ -57,7 +57,7 @@ button {
 
 h1 {
     /* Position */
-    position: absolute;
+    
 
     /* Cosmetics */
     color: white;
@@ -114,13 +114,17 @@ a:hover {
 .bodyTopBox {
     /* Position */
     z-index: 3;
+    margin-top: 0%;
+    padding-top: 5px;
 
     /* Size */
-    margin: 0px;
     height: 300px;
+    max-height: 300px;
+    overflow-x: hidden;
 
     /* Images and content */
-    display: flex; 
+    display: block; 
+    text-align: center;
     align-items: center;
     background-color: rgb(113, 162, 146);
     
@@ -132,8 +136,6 @@ a:hover {
 }
 
 .nameHeaderUnderText {
-    /* Position */
-    transform: translateY(45px);
 
     /* Cosmetics */
     font-size: 200%;
@@ -141,7 +143,7 @@ a:hover {
 
 .nameHeaderBlinkingUnderscore {
     /* Position */
-    transform: translate(170px,45px);
+    transform: translate(225px,-60px);
 
     /* Cosmetics */
     font-size: 200%;
@@ -198,6 +200,7 @@ a:hover {
     padding-bottom: 0;
 
     /* Content */
+    flex-wrap: wrap;
     display: flex;
     overflow: hidden;
     overflow-y: scroll;
@@ -230,10 +233,15 @@ a:hover {
 
 .internalBoxBlock {
 
-    /* Content */
-    margin: auto;
+    /* Size */
+    width: calc(80% - 300px);
+
+    /* Position */
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 
     /* Content */
+    min-width: 200px;
     display: block;
 
     /* Cosmetics */
@@ -244,16 +252,17 @@ a:hover {
 
 .expandingButtonBoxParagraph {
     /* Position */
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 2.5%;
+    margin: auto;
+
+    /* Cosmetics */
+    font-weight: lighter;
 }
 
 .profileImageBox {
 
     /* Size */
     width: 300px;
-    height: 200px;
+    height: 300px;
 
     /* Position */
     margin-top: 2.5%;
@@ -270,8 +279,8 @@ a:hover {
 .universityImageBox {
 
     /* Size */
-    width: 100px;
-    height: 120px;
+    width: auto;
+    height: auto;
 
     /* Position */
     

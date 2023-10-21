@@ -29,12 +29,12 @@ function blinkingUnderScoreAfter(id, delay) {
 
 function initLogoAnimation() {
     setTimeout(function () {
-        typeText("nameHeader", "William Norland", 50, 0);
+        typeText("nameHeader", "> name = \"William Norland\";", 50, 0);
     }, 1000);
     setTimeout(function () {
-        typeText("nameHeaderUnderText", "Software engineer", 50, 0);
-    }, 2000);
+        typeText("nameHeaderUnderText", "> Type: Software engineer", 50, 0);
+    }, 3000);
     setTimeout(function () {
         blinkingUnderScoreAfter("nameHeaderBlinkingUnderscore", 500)
-    }, 3000)
+    }, 5000)
 }
