@@ -29,12 +29,35 @@ function blinkingUnderScoreAfter(id, delay) {
 
 function initLogoAnimation() {
     setTimeout(function () {
-        typeText("nameHeader", "> name = \"William Norland\";", 50, 0);
+        typeText("promptArrow", "> ", 50, 0);
     }, 1000);
     setTimeout(function () {
-        typeText("nameHeaderUnderText", "> Type: Software engineer", 50, 0);
+        typeText("nameVar", "name", 50, 0);
+    }, 2000);
+    setTimeout(function () {
+        typeText("eqSign", " = ", 50, 0);
     }, 3000);
     setTimeout(function () {
-        blinkingUnderScoreAfter("nameHeaderBlinkingUnderscore", 500)
-    }, 5000)
+        typeText("nameStr", "\"William Norland\"", 50, 0);
+    }, 4000);
+    setTimeout(function () {
+        typeText("semiCol", ";", 50, 0);
+    }, 5000);
+
+    setTimeout(function () {
+        typeText("promptArrow2", "> ", 50, 0);
+    }, 6000);
+    setTimeout(function () {
+        typeText("typeVar", "Type", 50, 0);
+    }, 7000);
+    setTimeout(function () {
+        typeText("colon", ": ", 50, 0);
+    }, 8000);
+    setTimeout(function () {
+        typeText("type", "Software engineer", 50, 0);
+    }, 9000);
+    setTimeout(function () {
+        typeText("semiCol2", ";", 50, 0);
+    }, 10000);
+
 }

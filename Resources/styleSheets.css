@@ -5,6 +5,20 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+/* Font Color */
+
+.varColor {
+    color: #277df2;
+}
+
+.typeColor {
+    color: #00663f;
+}
+
+.strColor {
+    color: #9b5d00
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar { /* width */
@@ -84,7 +98,6 @@ h3 {
     /* Images and content */
     text-align: center;
 }
-
 
 .breadTextCareerMeritsBox {
     /* Cosmetics */
@@ -168,8 +181,8 @@ a:hover {
     margin: auto;
 
     /* Size */
-    width: 300px;
-    height: 10px;
+    width: 80%;
+    height: 5px;
 
     /* Cosmetics */
     background: #282828;
@@ -177,8 +190,25 @@ a:hover {
     border-radius: 5px;
 }
 
+.bottomBarSeparator {
+
+    margin: auto;
+    margin-top: 5%;
+
+    /* Size */
+    width: 80%;
+    height: 5px;
+
+    /* Cosmetics */
+    background: #282828;
+    border-style: outset;
+    border-radius: 5px;
+
+}
+
 .expandingButton {
     /* Size */
+    
     margin-top: 5%;
     width: 75%;
     
@@ -279,8 +309,8 @@ a:hover {
 .universityImageBox {
 
     /* Size */
-    width: auto;
-    height: auto;
+    width: 130px;
+    height: 160px;
 
     /* Position */
     
