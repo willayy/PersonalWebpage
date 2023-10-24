@@ -3,7 +3,7 @@
 
     const whoamiDivHeight = 300
     const whoamiDivPaddingB = 50
-    const careermeritsDivHeight = 300
+    const careermeritsDivHeight = 600
     const careermeritsPaddingB = 50
     const projectsDivHeight = 300
     const projectsPaddingB = 50

@@ -38,26 +38,15 @@ function initLogoAnimation() {
         typeText("eqSign", " = ", 50, 0);
     }, 3000);
     setTimeout(function () {
-        typeText("nameStr", "\"William Norland\"", 50, 0);
+        typeText("nameStr", "\"William_Norland\"", 50, 0);
     }, 4000);
     setTimeout(function () {
         typeText("semiCol", ";", 50, 0);
     }, 5000);
 
     setTimeout(function () {
-        typeText("promptArrow2", "> ", 50, 0);
+        blinkingUnderScoreAfter("blinkingUnderscore", 500)
     }, 6000);
-    setTimeout(function () {
-        typeText("typeVar", "Type", 50, 0);
-    }, 7000);
-    setTimeout(function () {
-        typeText("colon", ": ", 50, 0);
-    }, 8000);
-    setTimeout(function () {
-        typeText("type", "Software engineer", 50, 0);
-    }, 9000);
-    setTimeout(function () {
-        typeText("semiCol2", ";", 50, 0);
-    }, 10000);
+    
 
 }

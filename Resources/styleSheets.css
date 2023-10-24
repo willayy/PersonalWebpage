@@ -11,10 +11,6 @@
     color: #277df2;
 }
 
-.typeColor {
-    color: #00663f;
-}
-
 .strColor {
     color: #9b5d00
 }
@@ -37,322 +33,380 @@
     background: #555; 
 }
 
+/*Link stuff*/
+
+a:link {
+    
+    color: rgb(0, 102, 255);
+
+    text-decoration: underline;
+}
+
+a:hover {
+    
+    color: rgba(0, 102, 255, 0.5);
+}
+
 /*Concerning the whole html doc*/
 
 body,footer,html,button,div {
-    /* Size */
+    
     margin: 0px;
+
     padding: 0px;
 
-    /* Position */
     position: relative;
 
-    /* Cosmetics */
     color: #252525;
+
     background: #565869;
+
     font-family: 'Roboto Mono', monospace;
+
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+
     font-weight: bold;
+
     border-color: #8a8686;
     
-    /* Images and content */
     background-repeat: no-repeat;
+
     background-size: cover;
+
     justify-content: center;
     
-    /* Transitions */
     transition: all 0.3s ease;
 }
 
 button {
-    /* Cosmetics */
+    
     border-style: outset;
+
 }
 
 h1 {
-    /* Position */
     
-
-    /* Cosmetics */
     color: white;
+
 }
 
 h2 {
-    /* Size */
-    font-size: 200%;
+    
+    font-size: 45px;
 
-    /* Cosmetics */
     color: #252525;
 
-    /* Images and content */
     text-align: center;
 }
 
 h3 {
 
-    font-size: 120%;
+    font-size: 20px;
 
-    /* Cosmetics */
     color: #bdbdbd;
 
-    /* Images and content */
     text-align: center;
+
 }
 
 .breadTextCareerMeritsBox {
-    /* Cosmetics */
+    
     color: #bdbdbdb4;
 
-    /* Images and content */
     text-align: center;
 
     font-weight: lighter;
+
 }
 
-/*Link stuff*/
-
-a:link {
-    /* Cosmetics */
-    color: rgb(0, 102, 255);
-    text-decoration: underline;
-}
-
-a:hover {
-    /* Cosmetics */
-    color: rgba(0, 102, 255, 0.5);
-}
-
-/*Top box in the body */
+/* Top box in the body */
 
 .bodyTopBox {
-    /* Position */
+    
     z-index: 3;
-    margin-top: 0%;
-    padding-top: 5px;
 
-    /* Size */
-    height: 300px;
-    max-height: 300px;
-    overflow-x: hidden;
+    height: 250px;
 
-    /* Images and content */
+    max-height: 250px;
+
+    overflow: hidden;
+    
     display: block; 
+
     text-align: center;
+
     align-items: center;
+
     background-color: rgb(113, 162, 146);
     
 }
 
 .nameHeader {
-    /* Cosmetics */
-    font-size: 400%;
-}
 
-.nameHeaderUnderText {
+    font-size: 50px;
 
-    /* Cosmetics */
-    font-size: 200%;
 }
 
 .nameHeaderBlinkingUnderscore {
-    /* Position */
-    transform: translate(225px,-60px);
 
-    /* Cosmetics */
-    font-size: 200%;
+    transform: translate(410px, -90px);
+    
+    font-size: 50px;
+
 }
 
 /*Middle box in the body */
 
 .bodyMiddleBox {
-    /* Position */
+
     z-index: 2;
 
-    /* Size */
     padding-top: 2.5%;
+
     height: 800px;
     
-    /* Content */
     text-align: center;
+
 }   
 
 .barSeparator {
 
     margin: auto;
 
-    /* Size */
     width: 80%;
+
     height: 5px;
 
-    /* Cosmetics */
     background: #282828;
+
     border-style: outset;
+
     border-radius: 5px;
 }
 
 .bottomBarSeparator {
 
     margin: auto;
+
     margin-top: 5%;
 
-    /* Size */
     width: 80%;
+
     height: 5px;
 
-    /* Cosmetics */
     background: #282828;
+
     border-style: outset;
+
     border-radius: 5px;
 
 }
 
 .expandingButton {
-    /* Size */
     
     margin-top: 5%;
+
     width: 75%;
     
-    /* Cosmetics */
     border-radius: 10px;
+
 }
 
 .expandingButton:hover {
-    /* Cosmetics */
+
     background-color: #494a58;
+
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.35);
+
 }
 
 .expandingButtonBox {
-    /* Size */
+
     margin: auto;
+
     width: calc(75% - 4px);
+
     height: 0;
+
     padding-bottom: 0;
 
-    /* Content */
     flex-wrap: wrap;
+
     display: flex;
+
     overflow: hidden;
+
     overflow-y: scroll;
     
-    /* Cosmetics */
     border-style: none;
+
     border-radius: 0 0 10px 10px;
+
     background-color: #3f414d;
-    color:#1b1b1b;
+
+    color: #1b1b1b;
+
 }
 
 .expandingButtonBoxBlock {
-    /* Size */
+
     margin: auto;
+
     width: calc(75% - 4px);
+
     height: 0;
+
     padding-bottom: 0;
 
-    /* Content */
     display: block;
+
     overflow: hidden;
+
     overflow-y: scroll;
     
-    /* Cosmetics */
     border-style: none;
+
     border-radius: 0 0 10px 10px;
+
     background-color: #3f414d;
+
     color:#1b1b1b;
+
 }
 
-.internalBoxBlock {
+.internalBlockBox {
 
-    /* Size */
-    width: calc(80% - 300px);
+    width: 800px;
 
-    /* Position */
     margin-left: 2.5%;
+
     margin-right: 2.5%;
 
-    /* Content */
     min-width: 200px;
+
     display: block;
 
-    /* Cosmetics */
     background-color: #3f414d;
+
     box-shadow: none;
     
 }
 
+.internalCenteredFlexBox {
+
+    width: 800px;
+
+    margin-left: 2.5%;
+
+    margin-right: 2.5%;
+
+    min-width: 200px;
+
+    display: inline-flex;
+
+    background-color: #3f414d;
+
+    box-shadow: none;
+
+}
+
 .expandingButtonBoxParagraph {
-    /* Position */
+
     margin: auto;
 
-    /* Cosmetics */
     font-weight: lighter;
 }
 
 .profileImageBox {
 
-    /* Size */
     width: 300px;
+
     height: 300px;
 
-    /* Position */
     margin-top: 2.5%;
+
     margin-left: 50px;
 
-    /* Image stuff */
     background-image: url(profilePic.png);
 
-    /* Border */
+    background-size: contain;
+
     border-style: outset;
+
     border-radius: 10px;
+
 }
 
 .universityImageBox {
 
-    /* Size */
     width: 130px;
-    height: 160px;
 
-    /* Position */
+    height: 160px;
     
     margin: auto;
 
-    /* Image stuff */
     background-image: url(EN_Avancez_CH_black.png);
 
-    /* Cosmetics */
+    background-size: contain;
+
     background-color: #3f414d;
+
     box-shadow: none;
+
 }
 
 .highschoolImageBox {
 
-    /* Size */
     width: 256px;
-    height: 120px;
 
-    /* Position */
+    height: 120px;
     
     margin: auto;
 
-    /* Image stuff */
     background-image: url(polhem-logo-st-bla-1024x480.png);
 
-    /* Cosmetics */
+    background-size: contain;
+
     background-color: #3f414d;
+
     box-shadow: none;
+
+}
+
+.amf4ImageBox {
+
+    width: 150px;
+
+    height: 200px;
+    
+    margin: auto;
+
+    background-image: url(Älvsborgs_amfibieregemente_vapen.svg.png);
+
+    background-size: contain;
+
+    background-color: #3f414d;
+
+    box-shadow: none;
+
 }
 
 /*Footer*/
 
 .footerBox {
-    /*Shape and position*/
+
     z-index: 1;
+
     padding-top: 1px;
+
     margin: 0px;
+
     height: 100px;
     
-    /* Cosmetics */
     background: #282828;
+
     font-size: 15px;
+
     color: aliceblue;
+
 }
