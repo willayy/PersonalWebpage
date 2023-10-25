@@ -1,11 +1,11 @@
 
-    let mainPageBodyDivHeight = 800
+    let mainPageBodyDivHeight = 900
 
-    const whoamiDivHeight = 300
+    const whoamiDivHeight = 450
     const whoamiDivPaddingB = 50
-    const careermeritsDivHeight = 600
+    const careermeritsDivHeight = 450
     const careermeritsPaddingB = 50
-    const projectsDivHeight = 300
+    const projectsDivHeight = 450
     const projectsPaddingB = 50
 
     function initEventListners() {

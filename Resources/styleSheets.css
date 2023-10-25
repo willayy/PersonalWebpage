@@ -84,6 +84,8 @@ button {
 
 }
 
+/* Text */
+
 h1 {
     
     color: white;
@@ -109,7 +111,11 @@ h3 {
 
 }
 
-.breadTextCareerMeritsBox {
+.leftTextAlign {
+    text-align: left;
+}
+
+.breadTextExpandingBox {
     
     color: #bdbdbdb4;
 
@@ -117,6 +123,15 @@ h3 {
 
     font-weight: lighter;
 
+}
+
+.breadTextExpandingBox.leftTextAlign {
+
+    color: #bdbdbdb4;
+
+    text-align: left;
+
+    font-weight: lighter;
 }
 
 /* Top box in the body */
@@ -163,7 +178,7 @@ h3 {
 
     padding-top: 2.5%;
 
-    height: 800px;
+    height: 900px;
     
     text-align: center;
 
@@ -248,32 +263,6 @@ h3 {
 
 }
 
-.expandingButtonBoxBlock {
-
-    margin: auto;
-
-    width: calc(75% - 4px);
-
-    height: 0;
-
-    padding-bottom: 0;
-
-    display: block;
-
-    overflow: hidden;
-
-    overflow-y: scroll;
-    
-    border-style: none;
-
-    border-radius: 0 0 10px 10px;
-
-    background-color: #3f414d;
-
-    color:#1b1b1b;
-
-}
-
 .internalBlockBox {
 
     width: 800px;
@@ -292,7 +281,7 @@ h3 {
     
 }
 
-.internalCenteredFlexBox {
+.internalInlineFlexBox {
 
     width: 800px;
 
@@ -308,13 +297,6 @@ h3 {
 
     box-shadow: none;
 
-}
-
-.expandingButtonBoxParagraph {
-
-    margin: auto;
-
-    font-weight: lighter;
 }
 
 .profileImageBox {
@@ -382,6 +364,24 @@ h3 {
     margin: auto;
 
     background-image: url(Älvsborgs_amfibieregemente_vapen.svg.png);
+
+    background-size: contain;
+
+    background-color: #3f414d;
+
+    box-shadow: none;
+
+}
+
+.SEBImageBox {
+
+    width: 150px;
+
+    height: 200px;
+    
+    margin-top: 30px;
+
+    background-image: url(seb_k_neg_45mm150dpi.png);
 
     background-size: contain;
 
