@@ -299,26 +299,6 @@ h3 {
 
 }
 
-.profileImageBox {
-
-    width: 300px;
-
-    height: 300px;
-
-    margin-top: 2.5%;
-
-    margin-left: 50px;
-
-    background-image: url(profilePic.png);
-
-    background-size: contain;
-
-    border-style: outset;
-
-    border-radius: 10px;
-
-}
-
 .universityImageBox {
 
     width: 130px;
@@ -327,7 +307,7 @@ h3 {
     
     margin: auto;
 
-    background-image: url(EN_Avancez_CH_black.png);
+    background-image: url(../Images/EN_Avancez_CH_black.png);
 
     background-size: contain;
 
@@ -345,7 +325,7 @@ h3 {
     
     margin: auto;
 
-    background-image: url(polhem-logo-st-bla-1024x480.png);
+    background-image: url(../Images/polhem-logo-st-bla-1024x480.png);
 
     background-size: contain;
 
@@ -363,7 +343,7 @@ h3 {
     
     margin: auto;
 
-    background-image: url(Älvsborgs_amfibieregemente_vapen.svg.png);
+    background-image: url(../Images/Älvsborgs_amfibieregemente_vapen.svg.png);
 
     background-size: contain;
 
@@ -381,7 +361,7 @@ h3 {
     
     margin-top: 30px;
 
-    background-image: url(seb_k_neg_45mm150dpi.png);
+    background-image: url(../Images/seb_k_neg_45mm150dpi.png);
 
     background-size: contain;
 
