@@ -299,76 +299,8 @@ h3 {
 
 }
 
-.universityImageBox {
-
-    width: 130px;
-
-    height: 160px;
-    
-    margin: auto;
-
-    background-image: url(../Images/EN_Avancez_CH_black.png);
-
-    background-size: contain;
-
-    background-color: #3f414d;
-
-    box-shadow: none;
-
-}
-
-.highschoolImageBox {
-
-    width: 256px;
-
-    height: 120px;
-    
-    margin: auto;
-
-    background-image: url(../Images/polhem-logo-st-bla-1024x480.png);
-
-    background-size: contain;
-
-    background-color: #3f414d;
-
-    box-shadow: none;
-
-}
-
-.amf4ImageBox {
-
-    width: 150px;
-
-    height: 200px;
-    
-    margin: auto;
-
-    background-image: url(../Images/Älvsborgs_amfibieregemente_vapen.svg.png);
-
-    background-size: contain;
-
-    background-color: #3f414d;
-
-    box-shadow: none;
-
-}
-
-.SEBImageBox {
-
-    width: 150px;
-
-    height: 200px;
-    
-    margin-top: 30px;
-
-    background-image: url(../Images/seb_k_neg_45mm150dpi.png);
-
-    background-size: contain;
-
-    background-color: #3f414d;
-
-    box-shadow: none;
-
+.SEBImage {
+    margin-top: 60px;
 }
 
 /*Footer*/
