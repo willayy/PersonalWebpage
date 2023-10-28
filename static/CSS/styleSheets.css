@@ -1,7 +1,7 @@
 /* Fonts */
 
 @font-face {
-    src: url(Resources\Roboto_Mono\static\RobotoMono-Medium.ttf);
+    src: url(static\Roboto_Mono\static\RobotoMono-Medium.ttf);
     font-family: 'Roboto Mono', monospace;
 }
 
