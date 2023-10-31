@@ -78,6 +78,10 @@ body,footer,html,button,div {
     transition: all 0.3s ease;
 }
 
+html {
+    background: #ffffff;
+}
+
 button {
     
     border-style: outset;
@@ -178,7 +182,7 @@ h3 {
 
     padding-top: 2.5%;
 
-    height: 900px;
+    height: 1400px;
     
     text-align: center;
 

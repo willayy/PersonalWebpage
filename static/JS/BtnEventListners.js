@@ -1,5 +1,5 @@
 
-    let mainPageBodyDivHeight = 900
+    let mainPageBodyDivHeight = 1400
 
     const whoamiDivHeight = 450
     const whoamiDivPaddingB = 50
