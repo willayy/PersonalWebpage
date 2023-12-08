@@ -162,15 +162,15 @@ h3 {
 
 .nameHeader {
 
-    font-size: 400%;
+    font-size: 60px;
 
 }
 
 .nameHeaderBlinkingUnderscore {
 
-    transform: translate(520px, -125px);
+    transform: translate(500px, -145px);
     
-    font-size: 400%;
+    font-size: 80px;
 
 }
 
