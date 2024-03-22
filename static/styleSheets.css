@@ -168,7 +168,7 @@ h3 {
 
 .nameHeaderBlinkingUnderscore {
 
-    transform: translate(500px, -145px);
+    transform: translate(540px, -145px);
     
     font-size: 80px;
 
@@ -187,41 +187,6 @@ h3 {
     text-align: center;
 
 }   
-
-.barSeparator {
-
-    margin: auto;
-
-    margin-top: 75px;
-
-    width: 80%;
-
-    height: 5px;
-
-    background: #282828;
-
-    border-style: outset;
-
-    border-radius: 5px;
-}
-
-.bottomBarSeparator {
-
-    margin: auto;
-
-    margin-top: 75px;
-
-    width: 80%;
-
-    height: 5px;
-
-    background: #282828;
-
-    border-style: outset;
-
-    border-radius: 5px;
-
-}
 
 .expandingButton {
     
